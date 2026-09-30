@@ -85,7 +85,7 @@ public class User {
     }
 
     public void printInfo(){
-        System.out.printf("User{id='%s', fullName='%s', email='%s', phoneNumber='%s', preferredLanguage='%s', lastActiveAt=%s}",
+        System.out.printf("User{id='%s', fullName='%s', email='%s', phoneNumber='%s', preferredLanguage='%s', lastActiveAt=%s}\n",
                 id, fullName, email, phoneNumber, preferredLanguage, lastActiveAt);
     }
 

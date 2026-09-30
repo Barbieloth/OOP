@@ -81,7 +81,7 @@ public class Room {
     }
 
     public void printInfo(){
-        System.out.printf("Room{id='%s', name='%s', floor=%d, squareMeters=%.2f, targetTemperature=%.1f, deviceList=%s}",
+        System.out.printf("Room{id='%s', name='%s', floor=%d, squareMeters=%.2f, targetTemperature=%.1f, deviceList=%s}\n",
                 id, name, floor, squareMeters, targetTemperature, deviceList);
     }
 }

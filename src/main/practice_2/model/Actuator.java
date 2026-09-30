@@ -47,7 +47,7 @@ public class Actuator extends SmartDevice{
     }
 
     public void printInfo(){
-        System.out.printf("Actuator{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s', actuatorType='%s', state=%.2f, isLocked=%b}",
+        System.out.printf("Actuator{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s', actuatorType='%s', state=%.2f, isLocked=%b}\n",
                 getId(), getName(), getMacAddress(), getProtocolType(), getRoomId(), isOnline(), getBatteryLevel(), getFirmwareVersion(),
                 actuatorType, state, isLocked);
     }

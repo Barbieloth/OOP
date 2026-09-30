@@ -58,7 +58,7 @@ public class Hub{
     }
 
     public void printInfo() {
-        System.out.printf("Hub{id='%s', ipAddress='%s', connectedDevicesCount=%d, isCloudSyncEnabled=%b}",
+        System.out.printf("Hub{id='%s', ipAddress='%s', connectedDevicesCount=%d, isCloudSyncEnabled=%b}\n",
                 id, ipAddress, connectedDevicesCount, isCloudSyncEnabled);
     }
 }

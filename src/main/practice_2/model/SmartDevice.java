@@ -105,7 +105,7 @@ public class SmartDevice {
     }
 
     public void printInfo(){
-        System.out.printf("SmartDevice{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s'}",
+        System.out.printf("SmartDevice{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s'}\n",
                 id, name, macAddress, protocolType, roomId, isOnline, batteryLevel, firmwareVersion);
     }
 }

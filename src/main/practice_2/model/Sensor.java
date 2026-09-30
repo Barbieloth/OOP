@@ -74,7 +74,7 @@ public class Sensor extends SmartDevice {
     }
 
     public void printInfo(){
-        System.out.printf("Sensor{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s', sensorType='%s', currentValue=%.2f, unitOfMeasurement='%s', samplingIntervalSeconds=%d, lastTriggeredAt=%s}",
+        System.out.printf("Sensor{id='%s', name='%s', macAddress='%s', protocolType='%s', roomId='%s', isOnline=%b, batteryLevel=%d, firmwareVersion='%s', sensorType='%s', currentValue=%.2f, unitOfMeasurement='%s', samplingIntervalSeconds=%d, lastTriggeredAt=%s}\n",
                 getId(), getName(), getMacAddress(), getProtocolType(), getRoomId(), isOnline(), getBatteryLevel(), getFirmwareVersion(),
                 sensorType, currentValue, unitOfMeasurement, samplingIntervalSeconds, lastTriggeredAt);
     }
